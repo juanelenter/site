@@ -4,10 +4,10 @@ misc:
     subtitle: "Involuntarily drinking water."
     thumbnail: "assets/misc/wake.gif"
     selected: y
-
-  - title: "Water Skiing Santa Lucia"
-    subtitle: "West Santa Lucia by the way."
-    thumbnail: "assets/misc/ski.png"
+  
+  - title: "Snowboarding Argentina"
+    subtitle: "Involuntarily drinking frozen, cristalyzed water."
+    thumbnail: "assets/misc/snow.gif"
     selected: y
 
   - title: "Surfing Rocha"
@@ -15,30 +15,60 @@ misc:
     thumbnail: "assets/misc/surf.jpeg"
     selected: y
 
+  - title: "Water Skiing Santa Lucia"
+    subtitle: "West Santa Lucia by the way."
+    thumbnail: "assets/misc/ski.png"
+    selected: y
+
   - title: "Sailing Rio de la Plata"
-    subtitle: "Me and my uncle, with whom I crossed the Atlantic in 2016 (not in that boat though)."
+    subtitle: "Me and my uncle Ernesto, with whom I crossed the Atlantic in 2016 (not in that boat though)."
     thumbnail: "assets/misc/sailing.jpeg"
     selected: y
 
-  - title: "Waterpolo at UPenn"
-    subtitle: "In 2017, while playing for Uruguay's U-17 national team I lost 1-30 against the US."
+  - title: "Waterpolo"
+    subtitle: "In 2013, while playing for Uruguay's U-17 national team I lost 3-23 to the US. I now play at UPenn, ranked 8th in the nation."
     thumbnail: "assets/misc/polo.jpeg"
+    url: "https://es.wikipedia.org/wiki/Campeonato_Panamericano_Sub-17_de_Waterpolo_de_2013"
     selected: y
 
-  - title: "Snowboarding Argentina"
-    subtitle: "Involuntarily drinking water in a different state."
-    thumbnail: "assets/misc/snow.gif"
-    selected: y
-
-  - title: "Mate"
-    subtitle: " "
+  - title: "Mate: 1/2 Moncayo + 1/2 Baldo"
+    subtitle: "<q>My only real conversation is with this green gourd.</q> Julio Cortázar"
+    url: "https://www.youtube.com/watch?v=gEjCDGaZjBU&ab_channel=ESPNFans"
     thumbnail: "assets/misc/mate.jpeg"
     selected: n
 
+  - title: "The uruguayan"
+    subtitle: "We're kind of chill, obsessed with soccer, actively disrespectful of authority and fixated on social welfare."
+    thumbnail: "assets/misc/cultura.jpeg"
+    selected: n
+    url: "https://en.wikipedia.org/wiki/Uruguay"
+
+  - title: "La Negra Tomasa"
+    subtitle: "The best pizza in Uruguay, provably. "
+    thumbnail: "assets/misc/negra.jpeg"
+    selected: n
+
   - title: "Jorge Drexler"
-    subtitle: " "
+    subtitle: "<q>No le hagas caso a tanto misterio <br> vos ya sabés la verdad <br> que no hay nada peor para esta seriedad <br> que tomársela en serio.</q>"
     thumbnail: "assets/misc/drexler.jpeg"
     selected: n
+    url: "https://www.youtube.com/watch?v=Mb0nCO4d4OY&ab_channel=SalvatajeSubterraneo"
+
+  - title: "Asado"
+    subtitle: "Typical Sunday meal at family gatherings."
+    thumbnail: "assets/misc/asado.jpeg"
+    selected: n
+    url: " "
+
+  - title: "Murga"
+    subtitle: "Asaltantes Con Patentes 2013"
+    thumbnail: "assets/misc/murga.jpeg"
+    selected: n
+    url: "https://www.youtube.com/watch?v=6z9uqATrqaw&ab_channel=MURGAS"
+  
+
+
+
 
 
 

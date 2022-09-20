@@ -16,9 +16,7 @@ title: Home
   </p>
     
     <p>
-    3401 Walnut, Room 405b
-  </p>
-  <p>
+    3401 Walnut, Room 405b <br>
     Philadelphia, PA, 19104
     </p>
 
@@ -48,7 +46,7 @@ title: Home
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
             {% endif %}
 
             {% if paper.slides %}
@@ -114,7 +112,8 @@ title: Home
   </div>
 </div>
 
-<!-- ========== PROJECTS ==========  
+
+<!-- ========== PROJECTS ==========  -->
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
 
@@ -129,7 +128,7 @@ title: Home
 
                 <div class="project-image-container">
                   <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" height=250/>
                   </a>
                 </div>
 
@@ -147,7 +146,7 @@ title: Home
       {% endfor %}
 
 </div>
--->
+
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
@@ -180,14 +179,14 @@ title: Home
   <h4>Miscelaneous</h4>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#Water">Water</div></li>
-    <li><div class="button" data-ref="#Uruguay">Uruguay</div></li>
+    <li><div class="button active" data-ref="#Uruguay">Uruguay</div></li>
+    <li><div class="button" data-ref="#Water">Water</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="Water">
-      <p>Water is kind of my natural environment</p>
-      {% assign selected_misc = site.data.misc.misc | where: "selected", "y" %}
+    <div class="tab-pane active" id="Uruguay">
+      <p>Some stuff I like about my country. </p>
+      {% assign selected_misc = site.data.misc.misc | where: "selected", "n" %}
       {% for mis in selected_misc %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
@@ -217,9 +216,9 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="Uruguay">
-      <p>Some stuff I like about my country.</p>
-      {% assign selected_misc = site.data.misc.misc | where: "selected", "n" %}
+    <div class="tab-pane" id="Water">
+      <p>Water is my natural environment.</p>
+      {% assign selected_misc = site.data.misc.misc | where: "selected", "y" %}
       {% for mis in selected_misc %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}

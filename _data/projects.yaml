@@ -1,18 +1,19 @@
 projects:
-  - title: "CMS: Open Data"
-    subtitle: "CERN"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
+  - title: "ATAC-seq analysis and motif discovery"
+    subtitle: "@ Stanford, KundajeLab"
+    thumbnail: "assets/projects/mousedna.jpeg"
+    url: "https://github.com/kundajelab/basepairmodels"
     selected: y
 
-  - title: "KundajeLab ATAC-seq prediction and motif discovery"
-    subtitle: "Stanford KundajeLab"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
+  - title: "Undergrad Capstone Project: Prediction of complex traits in agriculture."
+    subtitle: "@ UdelaR <br><q>I find this case very confusing, and have not thoroughly checked the result.</q> R.A.Fisher"
+    thumbnail: "assets/projects/dnai.png"
+    url: "https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/28582/1/EEH21.pdf"
     selected: y
 
-  - title: "Interpolation based stochastic optimizers"
-    subtitle: "CCM Flatiron Institute, Simons Foundation"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
-    selected: n
+
+  - title: "CMS Open Data Initiative"
+    subtitle: "@ CERN"
+    thumbnail: "assets/projects/cms.png"
+    url: "https://cylindricalonion.web.cern.ch/blogs/cms-stories-my-journey-cms-cern"
+    selected: y
