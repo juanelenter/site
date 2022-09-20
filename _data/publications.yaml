@@ -1,0 +1,8 @@
+papers:
+
+  - title: "A Lagrangian Duality Approach to Active Learning"
+    authors: "<b>Juan Elenter</b>, Navid NaderiAlizadeh, Alejandro Ribeiro"
+    venue: "NeurIPS 2022."
+    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    code: "https://github.com/juanelenter/ALLY"
+    selected: y

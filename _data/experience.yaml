@@ -1,0 +1,43 @@
+experiences:
+
+- place: "Flatiron Institute, Simons Foundation"
+  time: "2022"
+  title: "Summer Intern"
+  subtitle: "Center for Computational Mathematics "
+  category: "work"
+
+- place: "University of Pennsylvania"
+  time: "Fall 2021 - now"
+  title: "Ph.D. Candidate"
+  subtitle: "Optimization theory, Signal Processing, Machine Learning"
+  category: "school"
+
+- place: "Stanford University"
+  time: "Spring 2021"
+  title: "Visiting Student at KundajeLab"
+  subtitle: "ATAC-seq analysis, motif discovery"
+  category: "school"
+  
+- place: "CERN"
+  time: "2020"
+  title: "Summer Intern"
+  subtitle: "Compact Muon Solenoid Experiment"
+  category: "work"
+
+- place: "IBM"
+  time: "2018-2019"
+  title: "Full Stack Developer"
+  category: "work"
+
+- place: "ProteanTecs"
+  time: "Summer 2019"
+  title: "Signal Processing Intern"
+  subtitle: "Chip Predictive Maintenance"
+  category: "work"
+
+- place: "Universidad de la Republcia"
+  time: "2016-2021"
+  title: "Bsc. Electrical Engineering"
+  subtitle: "Signal Processing"
+  category: "school"
+

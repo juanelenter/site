@@ -1,0 +1,18 @@
+projects:
+  - title: "CMS: Open Data"
+    subtitle: "CERN"
+    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
+    url: "projects/2016_network-ab-testing.html"
+    selected: y
+
+  - title: "KundajeLab ATAC-seq prediction and motif discovery"
+    subtitle: "Stanford KundajeLab"
+    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
+    url: "projects/2016_human-atlas.html"
+    selected: y
+
+  - title: "Interpolation based stochastic optimizers"
+    subtitle: "CCM Flatiron Institute, Simons Foundation"
+    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
+    url: "projects/2016_human-atlas.html"
+    selected: n

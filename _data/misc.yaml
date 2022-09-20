@@ -1,0 +1,45 @@
+misc:
+
+  - title: "Wakeboarding Punta Ballena"
+    subtitle: "Involuntarily drinking water."
+    thumbnail: "assets/misc/wake.gif"
+    selected: y
+
+  - title: "Water Skiing Santa Lucia"
+    subtitle: "West Santa Lucia by the way."
+    thumbnail: "assets/misc/ski.png"
+    selected: y
+
+  - title: "Surfing Rocha"
+    subtitle: "Glassy morning in my favourite uruguayan spot."
+    thumbnail: "assets/misc/surf.jpeg"
+    selected: y
+
+  - title: "Sailing Rio de la Plata"
+    subtitle: "Me and my uncle, with whom I crossed the Atlantic in 2016 (not in that boat though)."
+    thumbnail: "assets/misc/sailing.jpeg"
+    selected: y
+
+  - title: "Waterpolo at UPenn"
+    subtitle: "In 2017, while playing for Uruguay's U-17 national team I lost 1-30 against the US."
+    thumbnail: "assets/misc/polo.jpeg"
+    selected: y
+
+  - title: "Snowboarding Argentina"
+    subtitle: "Involuntarily drinking water in a different state."
+    thumbnail: "assets/misc/snow.gif"
+    selected: y
+
+  - title: "Mate"
+    subtitle: " "
+    thumbnail: "assets/misc/mate.jpeg"
+    selected: n
+
+  - title: "Jorge Drexler"
+    subtitle: " "
+    thumbnail: "assets/misc/drexler.jpeg"
+    selected: n
+
+
+
+
