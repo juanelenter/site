@@ -38,7 +38,7 @@ misc:
     selected: n
 
   - title: "The uruguayan"
-    subtitle: "We're kind of chill, obsessed with soccer, actively disrespectful of authority and fixated on social welfare."
+    subtitle: "We're kind of chill, obsessed with soccer, skeptical of authority and fixated on social welfare."
     thumbnail: "assets/misc/cultura.jpeg"
     selected: n
     url: "https://en.wikipedia.org/wiki/Uruguay"
