@@ -6,14 +6,14 @@ projects:
     selected: y
 
   - title: "Undergrad Capstone Project: Prediction of complex traits in agriculture."
-    subtitle: "@ UdelaR <br><q>I find this case very confusing, and have not thoroughly checked the result.</q> R.A.Fisher"
+    subtitle: "@ UdelaR, FarielBerry Lab<br><q>I find this case very confusing, and have not thoroughly checked the result.</q> R.A.Fisher"
     thumbnail: "assets/projects/dnai.png"
     url: "https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/28582/1/EEH21.pdf"
     selected: y
 
 
   - title: "CMS Open Data Initiative"
-    subtitle: "@ CERN"
+    subtitle: "@ CERN, CMS"
     thumbnail: "assets/projects/cms.png"
-    url: "https://cylindricalonion.web.cern.ch/blogs/cms-stories-my-journey-cms-cern"
+    url: "https://opendata.cern.ch/docs/about-cms"
     selected: y
