@@ -1,32 +1,32 @@
 misc:
 
-  - title: "Wakeboarding Punta Ballena"
-    subtitle: "Involuntarily drinking water."
+  - title: " "
+    subtitle: "Involuntarily drinking water in Punta Ballena."
     thumbnail: "assets/misc/wake.gif"
     selected: y
 
-  - title: "Surfing Rocha"
+  - title: " "
     subtitle: "Glassy morning in my favourite uruguayan spot."
     thumbnail: "assets/misc/surf.jpeg"
     selected: y
 
-  - title: "Snowboarding Argentina"
+  - title: " "
     subtitle: "Involuntarily drinking frozen, cristalyzed water."
     thumbnail: "assets/misc/snow.gif"
     selected: y
 
-  - title: "Water Skiing Santa Lucia"
-    subtitle: "West Santa Lucia by the way."
+  - title: " "
+    subtitle: "West Santa Lucia River by the way."
     thumbnail: "assets/misc/ski.png"
     selected: y
 
-  - title: "Sailing Rio de la Plata"
+  - title: " "
     subtitle: "Me and my uncle Ernesto, with whom I crossed the Atlantic in 2016 (not in that boat though)."
     thumbnail: "assets/misc/sailing.jpeg"
     selected: y
 
-  - title: "Waterpolo"
-    subtitle: "In 2013, while playing for Uruguay's U-17 national team I lost 3-23 to the US. I now play at UPenn, ranked 8th in the nation."
+  - title: " "
+    subtitle: "In 2013, while playing for Uruguay's U-17 national team I lost 3-23 to the US. I now play at UPenn, ranked 14th in the nation."
     thumbnail: "assets/misc/polo.jpeg"
     url: "https://es.wikipedia.org/wiki/Campeonato_Panamericano_Sub-17_de_Waterpolo_de_2013"
     selected: y
