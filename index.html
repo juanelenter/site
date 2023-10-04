@@ -5,35 +5,35 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p>
-    > I'm a 2nd year Ph.D. student at the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, where I mostly think about optimization theory, signal processing and machine learning with <a href="https://alelab.seas.upenn.edu/alejandro-ribeiro/" target="_blank">Prof. Ribeiro</a>.
-  </p>
-<p>
-    Before graduate school, I spent some time at <a href="https://sites.google.com/site/anshulkundaje/" target="_blank">Stanford's Kundaje Lab</a>, working on chromatin accessibility prediction and genomic motif discovery. I was also a summer intern at  <a href="https://home.cern/" target="_blank">CERN</a>, contributing to the  <a href="https://opendata.cern.ch/docs/about-cms" target="_blank"> CMS Open Data </a> initiative with Dr. Lassila-Perini.
-  </p> 
     <p>
-    I'm originally from Montevideo, Uruguay, where I obtained a BSc. in Electrical Engineering from  <a href="https://www.fing.edu.uy/" target="_blank">UdelaR</a> . During my undergrad I was a signal processing intern at  <a href="https://www.proteantecs.com/" target="_blank"> ProteanTecs</a> , a chip predictive maintenance start-up, and before that, I was a software developer at  <a href="https://research.ibm.com/collaborate/cloud-innovation-lab" target="_blank">IBM</a> . 
-  </p>
-    
-    <p>
-    3401 Walnut, Room 405b <br>
-    Philadelphia, PA, 19104
+    > I'm a 3rd year Ph.D. student at the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, where I mostly think about optimization and machine learning with <a href="https://alelab.seas.upenn.edu/alejandro-ribeiro/" target="_blank">Prof. Ribeiro</a>.
+    I'm also working towards a Masters degree in Data Science and Statistics from The <b> Wharton School </b>. Before graduate school, I visited Anshul Kundaje at <a href="https://sites.google.com/site/anshulkundaje/" target="_blank">Stanford's</a> Kundaje-Lab, where I worked on genomic motif discovery through ATAC-seq analysis. I was also a summer intern at  <a href="https://home.cern/" target="_blank">CERN</a>, contributing to the  <a href="https://opendata.cern.ch/docs/about-cms" target="_blank"> CMS Open Data </a> initiative with Dr. Lassila-Perini.
     </p>
-
+    <p>    I'm originally from the beautiful city of Montevideo,  <a href="https://www.seas.upenn.edu/~elenter/index.html#misc"> Uruguay</a>, where I obtained a BSc. in Electrical Engineering from  <a href="https://www.fing.edu.uy/" target="_blank">UdelaR</a>. During my undergrad, I was a software developer at  <a href="https://research.ibm.com/collaborate/cloud-innovation-lab" target="_blank">IBM</a> . 
+    </p>
 </div>
-
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Publications</h4>
-
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <sup>‡</sup> indicates equal contribution.
+  <h4>My work</h4>
+  <p>
+  On the theory side, I work on duality-based <a href="https://drive.google.com/file/d/1xcjXYwcZuIm9x71PvRlx3lnNGshh8zoy/view?usp=drive_link">constrained optimization</a>. This endeavour is about obtaining ML models that not only excel at a main task, but also adhere to requirements such as safety, robustness and fairness.    
+  </p>
+  <p>
+  On the applications side, I believe that the <i>return on investment</i> for data collection and pre-processing is higher than for training procedures and neural network architectures. In this <a href="https://dcai.csail.mit.edu/"">data-centric ML</a> journey, I have provided answers to the following questions: <br>
+  - Which set of samples should I label next so that my model is the best possible with the lowest labelling cost ? <br>
+  - What are the most impactful samples in my dataset? Which ones should I discard ? <br> 
+  - How should I continuously fine-tune my model as new data, with different properties, gets collected ? <br>
+  These interrogations have led to works on <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/f475bdd151d8b5fa01215aeda925e75c-Abstract-Conference.html">active</a> and <a href = "https://drive.google.com/file/d/1E1BUHhtcrFE3vik_H7othtw4Axf0SMfh/view?usp=drive_link"> continual learning</a> .
+  </p>
+  <p>
+  I have a particular interest in problems involving <b>biological signals</b> such as <a href="https://github.com/kundajelab/basepairmodels" >Genome Sequences </a>, Medical Images, Brain Images and the Gut Microbiome. This interest has led to <a href="https://www.yedahealth.com/pt" target="_blank">Yeda Health </a>, a personalized medicine start-up that leverages gut microbiome data to combat the diabetes epidemic in Brazil.
   </p>
 
+
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button active" data-ref="#papers-selected">Selected Papers</div></li>
+    <!-- <li><div class="button" data-ref="#papers-all">All</div></li> -->
   </ul>
 
   <div class="tab-content">
@@ -73,44 +73,6 @@ title: Home
         </div>
       {% endfor %}
     </div>
-
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
 
 
 <!-- ========== PROJECTS ==========  -->
@@ -185,7 +147,7 @@ title: Home
 
   <div class="tab-content">
     <div class="tab-pane active" id="Uruguay">
-      <p>Some stuff I like about my country. </p>
+      <p>Some stuff I like about Uruguay. </p>
       {% assign selected_misc = site.data.misc.misc | where: "selected", "n" %}
       {% for mis in selected_misc %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}

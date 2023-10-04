@@ -21,12 +21,12 @@ misc:
     selected: y
 
   - title: " "
-    subtitle: "Me and my uncle Ernesto, with whom I crossed the Atlantic in 2016 (not in that boat though)."
+    subtitle: "Me and my uncle Ernesto, with whom I crossed the Atlantic in 2016."
     thumbnail: "assets/misc/sailing.jpeg"
     selected: y
 
   - title: " "
-    subtitle: "In 2013, while playing for Uruguay's U-17 national team I lost 3-23 to the US. I now play at UPenn, ranked 14th in the nation."
+    subtitle: "In 2013, while playing for Uruguay's U-17 national team I lost 3-23 to the US."
     thumbnail: "assets/misc/polo.jpeg"
     url: "https://es.wikipedia.org/wiki/Campeonato_Panamericano_Sub-17_de_Waterpolo_de_2013"
     selected: y
@@ -55,7 +55,7 @@ misc:
     url: "https://www.youtube.com/watch?v=Mb0nCO4d4OY&ab_channel=SalvatajeSubterraneo"
 
   - title: "Asado"
-    subtitle: "Typical Sunday meal at family gatherings."
+    subtitle: "Typical sunday meal at family gatherings."
     thumbnail: "assets/misc/asado.jpeg"
     selected: n
     url: " "
