@@ -1,14 +1,14 @@
 papers: 
-  - title: "Near-Optimal Solutions of Constrained Learning Problems."
+  - title: "Near-Optimal Solutions of Constrained Learning Problems"
     authors: "<b>Juan Elenter</b>, Luiz Chamon, Alejandro Ribeiro"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://drive.google.com/file/d/1xcjXYwcZuIm9x71PvRlx3lnNGshh8zoy/view?usp=drive_link"
+    venue: "International Conference on Learning Representations (ICLR), 2024"
+    paper_pdf: "https://drive.google.com/file/d/1WpoyB6ydCWRojblZVXqzjUeoVDBoUS8n/view?usp=sharing"
     selected: y
 
-  - title: "Primal-Dual Continual Learning: Stability and Plasticity through Lagrange Multipliers."
+  - title: "Primal Dual Continual Learning: Balancing Stability and Plasticity through Adaptive Memory Allocation"
     authors: "<b>Juan Elenter</b>, Navid NaderiAlizadeh, Tara Javidi, Alejandro Ribeiro"
     venue: "Preprint Under Review"
-    paper_pdf: "https://drive.google.com/file/d/1E1BUHhtcrFE3vik_H7othtw4Axf0SMfh/view?usp=drive_link"
+    paper_pdf: "https://arxiv.org/abs/2310.00154"
     selected: y
     
   - title: "A Lagrangian Duality Approach to Active Learning"
@@ -19,7 +19,7 @@ papers:
     selected: y
 
   - title: "Neural Networks with Quantization Constraints."
-    authors: "Ignacio Hounie*, <b>Juan Elenter*, Alejandro Ribeiro"
+    authors: "Ignacio Hounie*, <b>Juan Elenter*</b>, Alejandro Ribeiro"
     venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing, 2023."
     paper_pdf: "https://arxiv.org/abs/2210.15623"
     code: "https://github.com/ihounie/pd-qat"

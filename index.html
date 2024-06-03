@@ -5,11 +5,12 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-    <p>
-    > I'm a 3rd year Ph.D. student at the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, where I mostly think about optimization and machine learning with <a href="https://alelab.seas.upenn.edu/alejandro-ribeiro/" target="_blank">Prof. Ribeiro</a>.
-    I'm also working towards a Masters degree in Data Science and Statistics from The <b> Wharton School </b>. Before graduate school, I visited Anshul Kundaje at <a href="https://sites.google.com/site/anshulkundaje/" target="_blank">Stanford's</a> Kundaje-Lab, where I worked on genomic motif discovery through ATAC-seq analysis. I was also a summer intern at  <a href="https://home.cern/" target="_blank">CERN</a>, contributing to the  <a href="https://opendata.cern.ch/docs/about-cms" target="_blank"> CMS Open Data </a> initiative with Dr. Lassila-Perini.
+  <p>
+    > I'm a 3rd year Ph.D. student at the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, where I mostly think about constrained optimization, foundation models and continual learning with <b>Alejandro Ribeiro</b>. This summer I will intern at <b> Paul Bennett</b>'s <a href="https://research.atspotify.com/machine-learning/" target="_blank">Spotify ML Research</a> team in NYC.
+  </p>
+  <p>  Before graduate school I worked on genomic motif discovery through ATAC-seq analysis with <b>Anshul Kundaje</b> at <a href="https://sites.google.com/site/anshulkundaje/" target="_blank">Stanford's</a> Kundaje-Lab. I also interned at <a href="https://home.cern/" target="_blank">CERN</a>, contributing to the CMS Open Data initiative with <b> Dr. Lassila-Perini</b>.
     </p>
-    <p>    I'm originally from the beautiful city of Montevideo,  <a href="https://www.seas.upenn.edu/~elenter/index.html#misc"> Uruguay</a>, where I obtained a BSc. in Electrical Engineering from  <a href="https://www.fing.edu.uy/" target="_blank">UdelaR</a>. During my undergrad, I was a software developer at  <a href="https://research.ibm.com/collaborate/cloud-innovation-lab" target="_blank">IBM</a> . 
+    <p> I hold an MA in Statistics and Data Science from <a href="https://www.wharton.upenn.edu/" target="_blank"> The Wharton School </a>, and I'm originally from the beautiful city of Montevideo, Uruguay, where I obtained a BSc. in Electrical Engineering from  <a href="https://www.fing.edu.uy/" target="_blank">UdelaR</a>. During my undergrad, I was a software developer at  <a href="https://research.ibm.com/collaborate/cloud-innovation-lab" target="_blank">IBM</a> . If any of this sparks your interest, or if you want share some Mate, feel free to reach out. </p> 
     </p>
 </div>
 
@@ -17,19 +18,17 @@ title: Home
 <div class="docs-section" id="publications">
   <h4>My work</h4>
   <p>
-  On the theory side, I work on duality-based <a href="https://drive.google.com/file/d/1xcjXYwcZuIm9x71PvRlx3lnNGshh8zoy/view?usp=drive_link">constrained optimization</a>. This endeavour is about obtaining ML models that not only excel at a main task, but also adhere to requirements such as safety, robustness and fairness.    
+  On the theory side, I work on duality-based <a href="https://drive.google.com/file/d/1WpoyB6ydCWRojblZVXqzjUeoVDBoUS8n/view?usp=sharing">constrained optimization</a>, which is particularly relevant in the context of large model fine tuning. This endeavour is about obtaining models that not only excel at a main task, but also adhere to requirements such as safety, invariance, robustness and fairness. For instance, my last paper shows that, in many learning problems, dual subgradient methods yield near-optimal and near-feasible solutions, without randomization, despite non-convexity. 
   </p>
   <p>
-  On the applications side, I believe that the <i>return on investment</i> for data collection and pre-processing is higher than for training procedures and neural network architectures. In this <a href="https://dcai.csail.mit.edu/"">data-centric ML</a> journey, I have provided answers to the following questions: <br>
-  - Which set of samples should I label next so that my model is the best possible with the lowest labelling cost ? <br>
-  - What are the most impactful samples in my dataset? Which ones should I discard ? <br> 
-  - How should I continuously fine-tune my model as new data, with different properties, gets collected ? <br>
-  These interrogations have led to works on <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/f475bdd151d8b5fa01215aeda925e75c-Abstract-Conference.html">active</a> and <a href = "https://drive.google.com/file/d/1E1BUHhtcrFE3vik_H7othtw4Axf0SMfh/view?usp=drive_link"> continual learning</a> .
+  On the applications side, I have delved into <a href="https://dcai.csail.mit.edu/"">data-centric ML</a> and explored the following questions: <br>
+  - What area of the sample space should I explore next so that my model improves the most with the lowest labelling cost ? <br>
+  - How should I continuously finetune a model as new data, with different properties, gets collected ? <br>
+  These interrogations have led to works on <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/f475bdd151d8b5fa01215aeda925e75c-Abstract-Conference.html">active</a> and <a href = "https://arxiv.org/abs/2310.00154"> continual learning</a>.
   </p>
   <p>
-  I have a particular interest in problems involving <b>biological signals</b> such as <a href="https://github.com/kundajelab/basepairmodels" >Genome Sequences </a>, Medical Images, Brain Images and the Gut Microbiome. This interest has led to <a href="https://www.yedahealth.com/pt" target="_blank">Yeda Health </a>, a personalized medicine start-up that leverages gut microbiome data to combat the diabetes epidemic in Brazil.
-  </p>
-
+  I have a particular interest in problems involving <b>biological signals</b> such as <a href="https://github.com/kundajelab/basepairmodels" >Genome Sequences </a>, Medical Images and the Gut Microbiome. </p>
+</p>
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected Papers</div></li>
@@ -114,7 +113,7 @@ title: Home
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <!--<p>Full resume  <a href=https://drive.google.com/file/d/1hteKSw63oyHDcA-HxjDQXUETX8yTp7Sj/view?usp=sharing target="_blank">here</a>.</p>-->
 
   <!-- The Timeline -->
   <ul class="timeline">
